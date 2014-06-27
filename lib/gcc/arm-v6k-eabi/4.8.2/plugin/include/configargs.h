@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "/home/ack/toolchains/.build/src/gcc-linaro-4.8-2013.06-1/configure --build=x86_64-build_unknown-linux-gnu --host=x86_64-build_unknown-linux-gnu --target=arm-v6k-eabi --prefix=/home/ack/x-tools/arm-v6k-eabi --with-local-prefix=/home/ack/x-tools/arm-v6k-eabi/arm-v6k-eabi/sysroot --disable-libmudflap --with-sysroot=/home/ack/x-tools/arm-v6k-eabi/arm-v6k-eabi/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG 1.19.0' --with-arch=armv6k --with-cpu=arm1176jzf-s --with-tune=arm1176jzf-s --with-fpu=vfp --with-float=softfp --disable-__cxa_atexit --with-gmp=/home/ack/toolchains/.build/arm-v6k-eabi/buildtools --with-mpfr=/home/ack/toolchains/.build/arm-v6k-eabi/buildtools --with-mpc=/home/ack/toolchains/.build/arm-v6k-eabi/buildtools --with-isl=/home/ack/toolchains/.build/arm-v6k-eabi/buildtools --with-cloog=/home/ack/toolchains/.build/arm-v6k-eabi/buildtools --with-libelf=/home/ack/toolchains/.build/arm-v6k-eabi/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-nls --disable-multilib --enable-languages=c,c++";
+static const char thread_model[] = "single";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "cpu", "arm1176jzf-s" }, { "arch", "armv6k" }, { "tune", "arm1176jzf-s" }, { "float", "softfp" }, { "fpu", "vfp" } };
